@@ -64,7 +64,7 @@ export MCP_SERVER_URL="your_ngrok_url"
 
 ---
 
-## 4. Initialize the SQLite Database
+## 4. Initialize the Database
 
 Run:
 
@@ -82,13 +82,7 @@ This creates:
 
 ## 5. Run the MCP Server
 
-Start the MCP server:
-
-```bash
-python mcp_server.py
-```
-
-Expose it with ngrok (optional):
+Start the MCP server and Expose it with ngrok (optional):
 
 ```bash
 ngrok http 5001
@@ -99,13 +93,6 @@ Copy the HTTPS URL into your `.env`.
 ---
 
 ## 6. Start All Three A2A Agents
-
-Run:
-
-```bash
-python assignment_5_multi_agent_customer_service_system_with_a2a_and_mcp.py
-```
-
 Expected output:
 
 ```
