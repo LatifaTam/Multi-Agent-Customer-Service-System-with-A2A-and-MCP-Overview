@@ -11,3 +11,4 @@ aiohttp
 uvicorn
 nest-asyncio
 mermaid-python
+httpx
